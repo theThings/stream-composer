@@ -1,17 +1,13 @@
 {
   "name": "stream-composer",
   "version": "1.0.2",
-  "description": "Modern stream composer",
+  "description": "Stream composer compatible with Node.js 4.x",
   "main": "index.js",
   "dependencies": {
-    "streamx": "^2.13.2"
-  },
-  "devDependencies": {
-    "brittle": "^3.2.1",
-    "standard": "^17.0.0"
+    "stream": "0.0.2"
   },
   "scripts": {
-    "test": "standard && brittle test.js"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
